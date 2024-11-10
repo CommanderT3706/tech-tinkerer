@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Tech Tinkerer</title>
+    <link rel="icon" type="image/png" href="/icons/favicon.png">
+
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="/scripts/index.js"></script>
+</head>
+<body onload="loadPosts()">
+    <div class="page">
+        <div class="navbar" id="navbar">
+          <a class="active" href="/">
+              <div>
+                  <img src="/icons/favicon.png" id="icon" alt="Tech Tinkerer" width="20">
+                  Tech Tinkerer
+              </div>
+          </a>
+          <a href="/posts">Posts</a>
+          <a href="/about">About</a>
+
+          <a style="float: right" href="https://github.com/CommanderT3706/tech-tinkerer/">
+              <span class="material-icons" style="font-size: 18px">code</span>
+          </a>
+
+          <a href="javascript:void(0);" class="icon" onclick="showNav()">
+              <span class="material-icons" style="font-size: 18px">menu</span>
+          </a>
+        </div>
+
+        <div class="banner">
+            <h1>Tech Tinkerer</h1>
+            <p>Tinkering the way forward</p>
+        </div>
+
+        <div class="posts">
+            <h1>Posts</h1>
+            <p id="post-status">Loading posts...</p>
+            <div class="post-list" id="post-list">
+                <! -- Populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            &copy; Tech Tinkerer 2024 <br><br>
+            Source code available on <a href="https://github.com/CommanderT3706/tech-tinkerer/">Github</a>.
+        </p>
+    </footer>
+</body>
+</html>

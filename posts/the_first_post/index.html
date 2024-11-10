@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Tech Tinkerer</title>
+    <link rel="icon" type="image/png" href="/icons/favicon.png">
+
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
+
+    <script src="/scripts/index.js"></script>
+</head>
+<body onload="loadPosts()">
+<div class="page">
+    <div class="navbar" id="navbar">
+        <a class="active" href="index.html">
+            <div>
+                <img src="/icons/favicon.png" id="icon" alt="Tech Tinkerer" width="20">
+                Tech Tinkerer
+            </div>
+        </a>
+        <a href="/posts">Posts</a>
+        <a href="/about">About</a>
+
+        <a style="float: right" href="https://github.com/CommanderT3706/tech-tinkerer/">
+            <span class="material-icons" style="font-size: 18px">code</span>
+        </a>
+
+        <a href="javascript:void(0);" class="icon" onclick="showNav()">
+            <span class="material-icons" style="font-size: 18px">menu</span>
+        </a>
+    </div>
+
+    <div class="banner">
+        <h1>Tech Tinkerer</h1>
+        <p>Tinkering the way forward</p>
+    </div>
+
+    <!-- Content goes here -->
+    <div class="text-block">
+        <h1>The Beginning</h1>
+        <p>If your reading this, you've found my personal blog! Here I plan to post the various engineering and programming projects that
+        I work on. This page is going to serve more as a test to see if everything works correctly</p>
+
+        <h1>Text Check</h1>
+        <p>
+            <b>This is bold</b><br>
+            <i>This is italic</i><br>
+            <s>This is strikethrough</s><br>
+            <u>This is underlined</u><br>
+
+            <pre><code class="language-rust">
+// This is Rust code
+fn main() {
+    println!("Hello World!");
+}
+            </code></pre>
+        </p>
+
+        <h1>Icons Checks</h1>
+        <span class="material-icons">code</span>
+        <span class="material-icons">favorite</span>
+        <span class="material-icons">check</span>
+
+<!--        <h1>Ad Check</h1>-->
+<!--        <p>I will be using ads on this site, but I will not fill the page with them, or make the site unusable with them</p>-->
+    </div>
+</div>
+
+<br>
+
+<footer>
+    <p>
+        &copy; Tech Tinkerer 2024 <br><br>
+        Source code available on <a href="https://github.com/CommanderT3706/tech-tinkerer/">Github</a>.
+    </p>
+</footer>
+</body>
+</html>
